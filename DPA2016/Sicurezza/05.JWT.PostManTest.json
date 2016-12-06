@@ -1,0 +1,77 @@
+{
+	"version" : 1,
+	"collections" : [{
+			"id" : "f0957ea5-ace1-48a9-9936-7c13e95882be",
+			"name" : "JWT",
+			"timestamp" : 1479745627824,
+			"requests" : [{
+					"collectionId" : "f0957ea5-ace1-48a9-9936-7c13e95882be",
+					"id" : "769e978d-8d3f-f4e8-3451-4832a5c06bcc",
+					"name" : "Autenticazione",
+					"description" : "",
+					"url" : "http://localhost:8080/rest/app/basic_auth",
+					"method" : "POST",
+					"headers" : "Authorization: Basic YWRtaW46bXlwYXNzd29yZA==\n",
+					"data" : [],
+					"dataMode" : "params",
+					"timestamp" : 0,
+					"responses" : [],
+					"version" : 2
+				}, {
+					"collectionId" : "f0957ea5-ace1-48a9-9936-7c13e95882be",
+					"id" : "80572319-502b-d585-15e8-d29bd2feed11",
+					"name" : "Info con token",
+					"description" : "",
+					"url" : "http://localhost:8080/rest/app/user/",
+					"method" : "GET",
+					"headers" : "Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYW5ndWFnZSI6ImVuLVVTIiwicm9sZXMiOiJ1c2VyLG1hbmFnZXIsYWRtaW4iLCJ1c2VybmFtZSI6ImFkbWluIn0.dsZ47u5ceac05UVUf9zMahmUladNj3ciYqdaDJHP69U\n",
+					"data" : [],
+					"dataMode" : "params",
+					"timestamp" : 0,
+					"responses" : [],
+					"version" : 2
+				}, {
+					"collectionId" : "f0957ea5-ace1-48a9-9936-7c13e95882be",
+					"id" : "82039e01-8f62-d693-0433-3a37d38ddd40",
+					"name" : "Detail con token",
+					"description" : "",
+					"url" : "http://localhost:8080/rest/app/user/details",
+					"method" : "GET",
+					"headers" : "Authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYW5ndWFnZSI6ImVuLVVTIiwicm9sZXMiOiJ1c2VyLG1hbmFnZXIsYWRtaW4iLCJ1c2VybmFtZSI6ImFkbWluIn0.dsZ47u5ceac05UVUf9zMahmUladNj3ciYqdaDJHP69U\n",
+					"data" : [],
+					"dataMode" : "params",
+					"timestamp" : 0,
+					"responses" : [],
+					"version" : 2
+				}, {
+					"collectionId" : "f0957ea5-ace1-48a9-9936-7c13e95882be",
+					"id" : "f62a7b63-d816-7d2b-6205-82e3f97a1f6a",
+					"name" : "Detail senza token",
+					"description" : "",
+					"url" : "http://localhost:8080/rest/app/user/details",
+					"method" : "GET",
+					"headers" : "",
+					"data" : [],
+					"dataMode" : "params",
+					"timestamp" : 0,
+					"responses" : [],
+					"version" : 2
+				}
+			]
+		}
+	],
+	"environments" : [],
+	"headerPresets" : [{
+			"id" : "96186552-bb50-cf72-df4d-bfbf06ae9eb6",
+			"name" : "json",
+			"headers" : [{
+					"key" : "content-type",
+					"value" : "application/json",
+					"type" : "text"
+				}
+			],
+			"timestamp" : 1456257826038
+		}
+	],
+	"globals" : []
+}
